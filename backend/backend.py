@@ -7,8 +7,8 @@ from typing import Dict, List, Union
 class TitanicSurvivalPredictor:
     """Clase para cargar el modelo y realizar predicciones de supervivencia del Titanic"""
     
-    def __init__(self, model_path='modelo_titanic.pkl', encoders_path='label_encoders_titanic.pkl', 
-                 features_path='feature_columns.pkl'):
+    def __init__(self, model_path='model/modelo_titanic.pkl', encoders_path='model/label_encoders_titanic.pkl', 
+                 features_path='model/feature_columns.pkl'):
         """
         Inicializa el predictor cargando el modelo, encoders y características
         
